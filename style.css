@@ -1,0 +1,158 @@
+* Reset de base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background: linear-gradient(to bottom, #6e6e6e, #2e2e2e);
+  color: white;
+  min-height: 100vh;
+  text-align: center;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 60px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+}
+
+.logo {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+  font-size: 1.1rem;
+}
+
+.nav-links a:hover,
+.nav-links a:focus {
+  border-bottom: 2px solid white;
+}
+
+/* Hero section */
+.hero {
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  line-height: 1.4;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  margin-bottom: 40px;
+  line-height: 1.6;
+}
+
+/* Button */
+.btn-contact {
+  display: inline-block;
+  padding: 10px 25px;
+  border: 1px solid white;
+  border-radius: 25px;
+  color: white;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.btn-contact:hover {
+  background: white;
+  color: #1e1e1e;
+}
+
+/* Contact Section */
+.contact-section {
+  background-color: #f8f8f8;
+  padding: 3rem 2rem;
+}
+
+.contact-section h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #222;
+}
+
+.contact-form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.contact-form label {
+  text-align: left;
+  font-weight: bold;
+  color: #333;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.contact-form button {
+  padding: 0.8rem;
+  background-color: #222;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #444;
+}
+
+/* Projets Section */
+.projets {
+  padding: 60px 20px;
+}
+
+.projets h1 {
+  font-size: 2.5em;
+  margin-bottom: 50px;
+  line-height: 1.4;
+}
+
+.categories {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.categorie {
+  max-width: 250px;
+}
+
+.categorie h2 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+.categorie img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+}
